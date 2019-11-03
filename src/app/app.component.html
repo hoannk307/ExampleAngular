@@ -1,0 +1,29 @@
+
+
+
+    <main>
+      <!-- <header class="container">
+        <h1>Shopping Cart</h1>
+        <ul class="breadcrumb">
+          <li>Home</li>
+          <li>Shopping Cart</li>
+        </ul>
+
+        <span class="count">{{totalproduct}} items in the bag</span>
+      </header>
+
+      <app-grid (total)=notifichangeTotal($event) (arrProduct)=receiveProducs($event)></app-grid>
+      <app-footer [count]="totalproduct" ></app-footer> -->
+
+
+
+      <app-user *ngIf="showActions" ></app-user>
+      <button (click)="showUser()" >showUser</button>
+
+    </main>
+
+
+
+
+
+
